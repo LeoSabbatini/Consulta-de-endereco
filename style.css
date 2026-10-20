@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #202129;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+
+    background-color: #63caec;
+    border: solid #86edff 2px;
+    border-radius: 10px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px 40px 20px;
+    margin-top: 20px;
+    flex-direction: column;
+
+    background-color: #63caec;
+    border: solid #86edff 2px;
+    border-radius: 10px;
+}
+
+.input{
+    margin-bottom: 10px;
+    background-color: #202129;
+    color: white;
+    border: solid #86edff 2px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    padding: 5px;
+}
